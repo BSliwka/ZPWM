@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "res.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "res.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_KOKOSZ_MENU MENU
+BEGIN
+    POPUP "Uzbrojenie"
+    BEGIN
+        MENUITEM "Topór",                       ID_MENU1_OPTION1
+        MENUITEM "Tarcza",                      ID_MENU1_OPTION2
+        MENUITEM "He³m",                        ID_MENU1_OPTION3
+    END
+    POPUP "Aparycja"
+    BEGIN
+        MENUITEM "Wysoki",                      ID_APARYCJA_WYSOKI
+        MENUITEM "Têgi",                        ID_APARYCJA_T40005
+        MENUITEM "£ysy",                        ID_APARYCJA_40006
+    END
+    POPUP "Charakter"
+    BEGIN
+        MENUITEM "Leniwy",                      ID_CHARAKTER_LENIWY
+        MENUITEM "Tchórzliwy",                  ID_CHARAKTER_TCH40008
+        MENUITEM "Przes¹dny",                   ID_CHARAKTER_PRZES40009
+        MENUITEM "Dowcipny",                    ID_CHARAKTER_DOWCIPNY
+    END
+    POPUP "Statystyki"
+    BEGIN
+        POPUP "Zdrowie"
+        BEGIN
+            MENUITEM "G³ód - 150",                  65535
+            MENUITEM "Pragnienie - 120",            ID_ZDROWIE_PRAGNIENIE40034
+            MENUITEM "Zmêczenie - 100",             ID_ZDROWIE_ZM40035
+        END
+        MENUITEM "Si³a - 130",                  ID_STATYSTYKI_SI40015
+        MENUITEM "Zrêcznoœæ - 20",              ID_STATYSTYKI_ZR40016
+    END
+END
+
+IDR_KAJKO_MENU MENU
+BEGIN
+    POPUP "Uzbrojenie"
+    BEGIN
+        MENUITEM "Miecz",                       ID_UZBROJENIE_MIECZ
+        MENUITEM "Tarcza",                      ID_UZBROJENIE_TARCZA
+        MENUITEM "£uk i strza³y",               ID_UZBROJENIE_40019
+    END
+    POPUP "Aparycja"
+    BEGIN
+        MENUITEM "Niski",                       ID_APARYCJA_NISKI
+        MENUITEM "Szczup³y",                    ID_APARYCJA_SZCZUP40021
+        MENUITEM "D³ugie czarne w³osy",         ID_APARYCJA_D40022
+    END
+    POPUP "Charakter"
+    BEGIN
+        MENUITEM "Inteligentny",                ID_CHARAKTER_INTELIGENTNY
+        MENUITEM "Odwa¿ny",                     ID_CHARAKTER_ODWA40024
+        MENUITEM "Szlachetny",                  ID_CHARAKTER_SZLACHETNY
+    END
+    POPUP "Statystyki"
+    BEGIN
+        POPUP "Zdrowie"
+        BEGIN
+            MENUITEM "G³ód - 90",                   ID_ZDROWIE_G40027
+            MENUITEM "Pragnienie - 100",            ID_ZDROWIE_PRAGNIENIE
+            MENUITEM "Zmêczenie - 70",              ID_ZDROWIE_ZM40033
+        END
+        MENUITEM "Si³a - 70",                   ID_STATYSTYKI_SI40030
+        MENUITEM "Zrêcznoœæ - 120",             ID_STATYSTYKI_ZR40031
+    END
+    POPUP "Informacje"
+    BEGIN
+        POPUP "Historia"
+        BEGIN
+            POPUP "Rodzaj:"
+            BEGIN
+                POPUP "Scenariusz:"
+                BEGIN
+                    POPUP "Rysunki:"
+                    BEGIN
+                        POPUP "Rok wydania:"
+                        BEGIN
+                            MENUITEM "Tomy:",                       ID_ROKWYDANIA_TOMY
+                            MENUITEM "14 + 3 nowe przygody",        ID_ROKWYDANIA_14
+                        END
+                        MENUITEM "1972",                        ID_RYSUNKI_1972
+                    END
+                    MENUITEM "Janusz Christa",              ID_SCENARIUSZ_JANUSZCHRISTA
+                    MENUITEM "S³awomir Kie³bus",            ID_SCENARIUSZ_S40049
+                END
+                MENUITEM "Janusz Christa",              ID_RODZAJ_JANUSZCHRISTA
+                MENUITEM "Maciej Kur",                  ID_RODZAJ_MACIEJKUR
+            END
+            MENUITEM "Seria komiksów",              ID_HISTORIA_KOMIKS
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON                    "kik_Zk5_icon.ico"
+
+IDI_KAJKO               ICON                    "kajko_iKb_icon.ico"
+
+IDI_KOKOSZ              ICON                    "kokosz_CUG_icon.ico"
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KAJKO_VIEW DIALOGEX 0, 0, 189, 135
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Kajko"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+END
+
+IDD_KOKOSZ_VIEW DIALOGEX 0, 0, 189, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kokosz"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_KAJKO_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_KOKOSZ_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_KAJKO_VIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_KOKOSZ_VIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
